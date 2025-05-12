@@ -80,7 +80,7 @@ const app = express();
 
 // ✅ Allow only your deployed frontend
 app.use(cors({
-  origin: "https://krinpatelporfolio.onrender.com",
+  origin: "https://krinpatelporfolio-frontend.onrender.com",
 }));
 
 app.use(express.json());
